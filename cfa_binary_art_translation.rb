@@ -40,7 +40,7 @@ end
 
 # http://codeforamerica.org/wp-content/uploads/2010/06/madison.pdf
 
-@quote = CfABinaryArtTranslation.new(quote: File.read('binary_art/madison.txt'))
-puts @quote.translate_to_ascii
+@binary_art = CfABinaryArtTranslation.new(quote: File.read('binary_art/madison.txt'))
+puts @binary_art.translate_to_ascii
 
 # => "We the People of the United States, in Order to form a more perfect Union"
